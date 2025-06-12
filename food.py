@@ -1,7 +1,7 @@
 from turtle import Turtle
 from snake import Snake_class
 import random
-class Food(Turtle): #if I did not make turtle as the parent class, I would have made to make an object of turtle class again something like this -> self.turtle1 = Turtle()
+class Food(Turtle):
     def __init__(self):
         super().__init__()
         self.shape("circle")
